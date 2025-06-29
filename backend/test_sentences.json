@@ -1,0 +1,233 @@
+{
+  "emotion_detection": {
+    "joy": [
+      "I'm absolutely thrilled about the news!",
+      "This makes me so happy and excited!",
+      "I'm delighted with the results",
+      "What a wonderful surprise!",
+      "I'm overjoyed with the outcome"
+    ],
+    "anger": [
+      "I'm absolutely furious about this situation",
+      "This makes me so angry and frustrated",
+      "I'm enraged by their behavior",
+      "This is completely unacceptable!",
+      "I'm livid about the poor service"
+    ],
+    "sadness": [
+      "I'm feeling really sad today",
+      "This news has left me heartbroken",
+      "I'm so depressed about what happened",
+      "This is such a sorrowful situation",
+      "I feel completely hopeless"
+    ],
+    "fear": [
+      "I'm really scared about the future",
+      "This situation terrifies me",
+      "I'm anxious about the outcome",
+      "I'm worried about what might happen",
+      "This makes me feel panicked"
+    ],
+    "surprise": [
+      "I'm completely shocked by this news",
+      "This is absolutely astonishing!",
+      "I'm amazed by what just happened",
+      "This is unbelievable!",
+      "I'm stunned by the revelation"
+    ],
+    "disgust": [
+      "This is absolutely disgusting",
+      "I'm revolted by their behavior",
+      "This makes me feel sick",
+      "I'm appalled by what I just saw",
+      "This is completely repulsive"
+    ],
+    "trust": [
+      "I trust you completely",
+      "I'm confident in your abilities",
+      "I feel secure with this decision",
+      "I'm assured that everything will be fine",
+      "I have faith in the process"
+    ],
+    "anticipation": [
+      "I'm excited to see what happens next",
+      "I'm eager to get started",
+      "I'm optimistic about the future",
+      "I'm hopeful that things will improve",
+      "I'm curious about the results"
+    ]
+  },
+  "sarcasm_detection": {
+    "obvious_sarcasm": [
+      "Oh great, another meeting!",
+      "Wonderful, just what I needed!",
+      "Fantastic, my day is ruined!",
+      "Brilliant idea, NOT!",
+      "Oh really? I never would have guessed!"
+    ],
+    "punctuation_sarcasm": [
+      "This is amazing...",
+      "Great job!?!",
+      "Oh wow...",
+      "Sure thing...",
+      "Whatever..."
+    ],
+    "capitalization_sarcasm": [
+      "This is REALLY helpful",
+      "WOW, what a surprise",
+      "AMAZING service as usual",
+      "GREAT job everyone",
+      "FANTASTIC results"
+    ],
+    "pattern_sarcasm": [
+      "Yeah right, like that's going to happen",
+      "Oh really, is that so?",
+      "No way, I'm shocked",
+      "Whatever you say",
+      "Sure thing, buddy"
+    ],
+    "non_sarcastic": [
+      "This is actually really good",
+      "I'm genuinely happy about this",
+      "Thank you for your help",
+      "This is exactly what I needed",
+      "I appreciate your effort"
+    ]
+  },
+  "intent_classification": {
+    "question": [
+      "What time is the meeting?",
+      "How do I solve this problem?",
+      "Why did this happen?",
+      "When will you be available?",
+      "Can you explain this to me?",
+      "Tell me more about this"
+    ],
+    "command": [
+      "Please send me the report",
+      "Make sure to call me tomorrow",
+      "Create a new account for me",
+      "Stop doing that immediately",
+      "Go to the store and buy milk",
+      "I need you to fix this"
+    ],
+    "complaint": [
+      "This product is broken",
+      "The service was terrible",
+      "I hate this new interface",
+      "This is not working properly",
+      "The quality is awful",
+      "There's a problem with my order"
+    ],
+    "greeting": [
+      "Hello, how are you?",
+      "Hi there!",
+      "Good morning everyone",
+      "Hey, nice to see you",
+      "Greetings from the team",
+      "Welcome to our platform"
+    ],
+    "gratitude": [
+      "Thank you for your help",
+      "I really appreciate this",
+      "Thanks a lot!",
+      "I'm grateful for your support",
+      "This was very helpful",
+      "Great job on this"
+    ],
+    "apology": [
+      "I'm sorry for the confusion",
+      "I apologize for the delay",
+      "My bad, I made a mistake",
+      "I regret what happened",
+      "Please forgive me",
+      "It's my fault"
+    ],
+    "statement": [
+      "The weather is nice today",
+      "I went to the store yesterday",
+      "This is a good book",
+      "The meeting starts at 3 PM",
+      "I have three meetings today",
+      "The project is on schedule"
+    ]
+  },
+  "subjectivity_analysis": {
+    "subjective": [
+      "I think this is a great idea",
+      "I believe the movie was excellent",
+      "I feel this is the right decision",
+      "In my opinion, this is wrong",
+      "I love this new feature",
+      "I hate when this happens",
+      "This seems like a good solution",
+      "It appears to be working well"
+    ],
+    "objective": [
+      "The meeting is at 3 PM",
+      "The temperature is 72 degrees",
+      "The file size is 2.5 MB",
+      "There are 10 people in the room",
+      "The data shows a 15% increase",
+      "The research confirms this fact",
+      "The evidence proves the theory",
+      "The statistics indicate growth"
+    ],
+    "mixed": [
+      "I think the data shows improvement",
+      "The facts suggest this is good",
+      "My opinion is that the evidence is clear",
+      "I believe the statistics are accurate",
+      "The research confirms what I suspected",
+      "I feel the results are promising"
+    ]
+  },
+  "sentiment_analysis": {
+    "positive": [
+      "I love this new feature!",
+      "This is absolutely amazing",
+      "Great job on the project",
+      "I'm so happy with the results",
+      "This is exactly what I needed",
+      "Fantastic work everyone"
+    ],
+    "negative": [
+      "I hate this new interface",
+      "This is completely terrible",
+      "The service was awful",
+      "I'm so disappointed",
+      "This is the worst experience",
+      "I regret using this"
+    ],
+    "neutral": [
+      "The meeting is at 3 PM",
+      "I have three tasks to complete",
+      "The file is ready for review",
+      "The system is operational",
+      "The data has been processed",
+      "The update is complete"
+    ]
+  },
+  "complex_examples": {
+    "sarcastic_positive": [
+      "Oh great, another wonderful meeting to attend!",
+      "Fantastic, just what I needed today!",
+      "Brilliant idea, let's have more meetings!"
+    ],
+    "sarcastic_negative": [
+      "Oh wonderful, my day is completely ruined!",
+      "Great, just what I needed to hear!",
+      "Fantastic, everything is going wrong!"
+    ],
+    "emotional_question": [
+      "Why am I so sad about this?",
+      "How can I be happy again?",
+      "What makes you so angry?"
+    ],
+    "subjective_complaint": [
+      "I think this service is terrible",
+      "I believe the quality is awful",
+      "In my opinion, this is unacceptable"
+    ]
+  }
+} 

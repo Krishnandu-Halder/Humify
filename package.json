@@ -1,0 +1,27 @@
+{
+  "name": "humify",
+  "version": "1.0.0",
+  "description": "Humify - AI companion with enhanced emotional intelligence and 3D avatar",
+  "main": "index.js",
+  "scripts": {
+    "frontend": "cd frontend && cross-env PORT=3000 npm run dev",
+    "backend": "cd backend && cross-env PORT=3003 npm run dev",
+    "dev": "concurrently \"npm run backend\" \"npm run frontend\"",
+    "install:all": "npm install && cd frontend && npm install --legacy-peer-deps && cd ../backend && npm install",
+    "build": "cd frontend && npm run build",
+    "start": "cd frontend && npm start"
+  },
+  "keywords": [
+    "ai",
+    "digital-human",
+    "three.js",
+    "react",
+    "next.js"
+  ],
+  "author": "",
+  "license": "MIT",
+  "devDependencies": {
+    "concurrently": "^8.2.0",
+    "cross-env": "^7.0.3"
+  }
+} 
